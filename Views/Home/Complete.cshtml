@@ -1,0 +1,52 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Complete</title>
+</head>
+<body>
+    <div>
+        <link href="~/Content/Success_Failer.css" rel="stylesheet" />
+
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <!------ Include the above in your HEAD tag ---------->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <br />
+                    <br />
+                    <div class="error-template">
+                        <h1 class="label label-success" style="font-size: 35px;">
+                            Quý khách đã đặt hàng thành công
+                        </h1>
+                        <br />
+                        <br />
+                       
+                        <h1 class="label label-success" style="font-size: 35px;">
+                            Chúc quý khách có một ngày tốt lành
+                        </h1>
+
+                        <br />
+                        <br />
+                        <br />
+                        <div class="error-actions">
+                            <a href="@Url.Action("Index", "Home")" class="btn btn-primary btn-lg">
+                                <span class="glyphicon glyphicon-home"></span>
+                                Trở về trang chủ
+                            </a><a href="@Url.Action("Contact", "Home")" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Liên hệ chúng tôi </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

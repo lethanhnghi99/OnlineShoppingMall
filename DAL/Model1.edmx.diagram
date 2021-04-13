@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ecc49c5de5764343b3a2b84d86cce4a8" Name="Diagram1" ZoomLevel="99">
+        <EntityTypeShape EntityType="dbQuanlycuahangdienmayModel.Tbl_Cart" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbQuanlycuahangdienmayModel.Tbl_CartStatus" Width="1.5" PointX="7.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbQuanlycuahangdienmayModel.Tbl_Category" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbQuanlycuahangdienmayModel.Tbl_Invoice" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbQuanlycuahangdienmayModel.Tbl_InvoiceDetail" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbQuanlycuahangdienmayModel.Tbl_Login" Width="1.5" PointX="9.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbQuanlycuahangdienmayModel.Tbl_MemberRole" Width="1.5" PointX="7.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbQuanlycuahangdienmayModel.Tbl_Members" Width="1.5" PointX="5.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbQuanlycuahangdienmayModel.Tbl_Product" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbQuanlycuahangdienmayModel.Tbl_Roles" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbQuanlycuahangdienmayModel.Tbl_ShippingDetails" Width="1.5" PointX="8" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbQuanlycuahangdienmayModel.Tbl_SlideImage" Width="1.5" PointX="2.75" PointY="11.125" IsExpanded="true" />
+        <AssociationConnector Association="dbQuanlycuahangdienmayModel.FK__Tbl_Cart__Produc__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="dbQuanlycuahangdienmayModel.FK__Tbl_Produ__Quant__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="dbQuanlycuahangdienmayModel.fk01_Tbl_InvoiceDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="dbQuanlycuahangdienmayModel.fk02_Tbl_InvoiceDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="dbQuanlycuahangdienmayModel.FK__Tbl_Shipp__Membe__4316F928" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
